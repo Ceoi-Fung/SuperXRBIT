@@ -16,11 +16,7 @@
   "XRbit_传感器.Ultrasonic|block": "超声波|Trig引脚 %Trig|Echo引脚 %Echo",
 
  
-  "XRbit_小车.color.red|block": "R",
-  "XRbit_小车.color.blue|block": "B",
-  "XRbit_小车.color.green|block": "G",
-
-  "XRbit_小车.ColorSensor|block": "读取颜色传感器捕捉到的 %color 通道值",
+ 
 
   "XRbit_小车.RGB_Car_Program|block": "小车彩灯",
   "XRbit_小车.enMotor.leftMotor|block": "左侧电机",
