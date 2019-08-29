@@ -174,43 +174,6 @@ namespace XRbit_小车 {
         Num9 = 0x4A 
          
     }
-    // // export enum enColorSensor{
-    // //     //% blockId="GetColor" block="GetColor"
-    // //     GetColor = 0,
-    // //     //% blockId="NotGetColor" block="NotGetColor"
-    // //     NotGetColor = 1,
-    // // }
-
-    // "XRbit_小车.color.red|block": "R",
-    // "XRbit_小车.color.blue|block": "B",
-    // "XRbit_小车.color.green|block": "G",
-  
-    // "XRbit_小车.ColorSensor|block": "读取颜色传感器捕捉到的 %color 通道值",
-    // export enum color{
-    //     //% blockId="red" block="red"
-    //     red = 0,
-    //     //% blockId="green" block="green"
-    //     green = 1,
-    //     //% blockId="blue" block="blue"
-    //     blue = 2,
-        
-    // }
-
-    // //% blockId=XRbit_ColorSensor block="ColorSensor catch color %value"
-    // //% weight=100
-    // //% blockGap=10
-    // //% color="#0fbc11"
-    // //% value.min=0 value.max=6
-    // //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    // export function ColorSensor(color: color): number{
-    //     let list:Array<number> = [0, 0, 0];
-    //     let var=i2cread(COLOR_ADDR, 3);
-    //     // if (enColorSensor == 0) {
-    //     //     return 1;
-    //     // }
-        
-    //     return 2;
-    // }
 
     function i2cwrite(addr: number, reg: number, value: number): void {
         let buf = pins.createBuffer(2);

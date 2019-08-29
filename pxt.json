@@ -5,8 +5,8 @@
     "dependencies": {
         "core": "*",
         "neopixel": "github:991693552/pxt-neopixel-bluetoothallowed-master",
-        "bluetooth": "*",
-        "XRIR": "github:KylinBay/XRIR"
+        "bluetooth": "*"
+        
     },
     "files": [
         "README.md",
