@@ -1,11 +1,12 @@
 {
     "name": "XRBIT-DS",
-    "version": "1.0.0",
+    "version": "1.0.6",
     "description": "XRBIT DRIVER BOARD FOR MICROBIT",
     "dependencies": {
         "core": "*",
         "neopixel": "github:991693552/pxt-neopixel-bluetoothallowed-master",
-        "bluetooth": "*"
+        "bluetooth": "*",
+        "XRIR": "github:KylinBay/XRIR"
     },
     "files": [
         "README.md",

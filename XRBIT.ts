@@ -146,10 +146,8 @@ namespace XRbit_小车 {
         leftMotor = 0x14,
         //% blockId="rightMotor" block="rightMotor"
         rightMotor = 0x15,
-        //% blockId="leftSweepingMotor" block="leftSweepingMotor"
-        leftSweepingMotor = 0x17,
-        //% blockId="rightSweepingMotor" block="rightSweepingMotor"
-        rightSweepingMotor = 0x18
+        //% blockId="SweepingMotor" block="SweepingMotor"
+        SweepingMotor = 0x16,      
 
     }
 
